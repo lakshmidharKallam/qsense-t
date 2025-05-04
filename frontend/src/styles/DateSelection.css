@@ -1,0 +1,35 @@
+
+:where(.css-dev-only-do-not-override-tpassh).ant-picker .ant-picker-separator {
+
+    font-size: 15px;
+}
+
+:where(.css-dev-only-do-not-override-tpassh).ant-select-dropdown .ant-select-item-option-content {
+    font-size: 1rem;
+}
+
+@media screen and (min-width:2560px){
+:where(.css-dev-only-do-not-override-tpassh).ant-picker-outlined {
+    width: 27rem;
+    font-size: 2rem;
+    height: 3.5rem;
+}
+:where(.css-dev-only-do-not-override-tpassh).ant-picker .ant-picker-input >input {
+    font-size: 2rem;
+}
+
+
+:where(.css-dev-only-do-not-override-tpassh).ant-btn.ant-btn-icon-only .anticon {
+    font-size: 2rem;
+}
+
+
+:where(.css-dev-only-do-not-override-tpassh).ant-picker .ant-picker-separator {
+
+    font-size: 30px;
+}
+
+:where(.css-dev-only-do-not-override-tpassh).ant-select-dropdown .ant-select-item-option-content {
+    font-size: 2rem;
+}
+}

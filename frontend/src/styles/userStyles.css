@@ -1,0 +1,27 @@
+@media screen and (min-width: 2560px) {
+	.user-role-form .ant-form-item-label > label {
+		font-size: 25px;
+	}
+	.user-role-form .ant-form-item-label {
+		padding-top: 12px;
+	}
+
+	.user-role-form .ant-btn {
+		font-size: 20px;
+		padding: 25px 24px;
+	}
+
+	.user-role-form .ant-btn-primary {
+		background-color: #1890ff;
+		border-color: #1890ff;
+		font-weight: bold;
+	}
+
+	.large-input {
+		font-size: 25px;
+		padding: 10px 15px;
+	}
+}
+	.user-role-form .ant-form-item-label {
+	font-family: 'sans-serif';
+	}

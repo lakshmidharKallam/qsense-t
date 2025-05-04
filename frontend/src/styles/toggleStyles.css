@@ -1,0 +1,55 @@
+@media screen and (min-width: 2560px) {
+	.operations-toggle-form .ant-form-item-label > label {
+		font-size: 2rem;
+	}
+	.operations-toggle-form .ant-form-item-label {
+		padding-top: 12px;
+	}
+
+	.operations-toggle-form .ant-btn {
+		font-size: 25px;
+		padding: 25px 24px;
+	}
+
+	.operations-toggle-form .ant-btn-primary {
+		background-color: #153d78;
+		border-color: #153d78;
+		font-weight: bold;
+	}
+
+	:where(.css-dev-only-do-not-override-tpassh).ant-form-item {
+		margin-bottom: 24px;
+	}
+	.ant-message-notice-content {
+		font-size: 30px;
+	}
+	:where(.css-dev-only-do-not-override-tpassh).ant-message
+		.ant-message-notice-wrapper
+		.ant-message-custom-content
+		> .anticon {
+		font-size: 30px;
+	}
+}
+
+.operations-toggle-form .ant-form-item-label {
+	font-family:  'sans-serif';
+}
+
+.operations-toggle-form .ant-btn {
+	font-family:  'sans-serif';
+}
+
+:where(.css-dev-only-do-not-override-tpassh).ant-btn-group
+	> .ant-btn-primary:not(:last-child):not(:disabled),
+:where(.css-dev-only-do-not-override-tpassh).ant-btn-group
+	> span:not(:last-child)
+	> .ant-btn-primary:not(:disabled),
+:where(.css-dev-only-do-not-override-tpassh).ant-btn-group
+	> .ant-btn-primary:not(:last-child)
+	> .ant-btn-primary:not(:disabled) {
+	border-inline-end-color: #153d78;
+}
+
+:where(.css-dev-only-do-not-override-tpassh).ant-form-item {
+	margin-bottom: 13px;
+}

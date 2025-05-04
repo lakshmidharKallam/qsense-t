@@ -1,0 +1,15 @@
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+/* background: rgb(131,162,220);
+background: linear-gradient(150deg, rgba(131,162,220,1) 10%, rgba(204,216,226,1) 65%);
+	  background-size: cover;
+  background-attachment: fixed;  */
+  /* Ensures the gradient doesn't break on scroll */
+  background-color: #f4f7fd;
+
+}

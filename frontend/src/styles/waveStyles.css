@@ -1,0 +1,31 @@
+/* @keyframes wave-animation {
+  from {
+    background-position: -1200px 100%;
+  }
+  to {
+    background-position: 1200px 100%;
+  }
+}
+
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 400%;
+  background: url('https://coiger.github.io/fill-water-animation/wave.svg') repeat-x;
+  background-size:contain;
+  animation: wave-animation 6s linear infinite;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 6s;
+  opacity: 0.6;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 8s;
+  opacity: 0.4;
+}
+
+ */

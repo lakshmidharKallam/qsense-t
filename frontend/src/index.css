@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+	font-weight: 600;
+	font-size: 1.4rem;
+	color: #153d78;
+}
+
+h1,
+a,
+.heading,
+h2,
+h3,
+h4 {
+	font-family:Arial, sans-serif;
+}
+
+a {
+	font-size: 1.2rem;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 1.4rem;
+	color: #153d78;
+}
+
+h3 {
+	font-size: 1.2rem;
+	color: #153d78;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+@media screen and (min-width: 2560px) {
+	h1 {
+		font-size: 2.7rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+		font-weight: 500;
+		line-height: 3rem;
+	}
+	h3 {
+		font-family:  'sans-serif';
+		font-size: 2.5rem;
+	}
+	h4 {
+		font-family:  'sans-serif';
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	a {
+		font-size: 2.7rem;
+	}
+}
+
+
+@layer base {
+	h1 {
+		@apply largescreen:text-4xl largescreen:pb-2;
+	}
+	h2 {
+		@apply text-xl;
+	}
+}
+
+@layer components {
+	.btn-blue {
+		@apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+	}
+}
+
+@layer utilities {
+	.filter-none {
+		filter: none;
+	}
+	.filter-greyscale {
+		filter: greyscale(100%);
+	}
+}
+
+.ant-btn-variant-solid {
+	color: #fff;
+	background: #165dc6;
+}
+
+.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover {
+	background: #165dc6;
+	color: #fff;
+}
